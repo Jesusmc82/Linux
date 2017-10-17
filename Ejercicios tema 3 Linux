@@ -1,0 +1,32 @@
+Ejercicios tema 3 Linux:
+
+
+1,- ls *.jpg
+2,- cd /usr/bin
+     ls j*
+3,- ls /usr/bin/k?a*
+4,- ls /usr/bin/*n
+5,- ls -R /etc
+6,- mkdir test
+      cp /bin/gzip  test
+      cd test
+      cp gzip gzip2
+7,- mv test test2
+     mkdir test3
+     mv test2/*  test3
+     rm -r test2
+8,- Se puede, pero no es recomendable poner caracteres especiales en los nombres de los archivos.
+9,- mkdir multimedia_test 
+     cp -R multimedia/* multimedia_test
+     cd multimedia/video
+     touch films.txt
+     touch actors.txt
+     nano films.txt
+     “forrest gump”
+     ^X
+    cd ../../multimedia_test/video
+    nano films.txt
+     cd
+     cp -Ru multimedia/* multimedia_test
+10,- rm -Ri multimedia/pictures/others
+11,- mv multimedia/video/films.txt multimedia/myfilms.txt

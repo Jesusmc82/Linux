@@ -1,0 +1,49 @@
+Ejercicios tema 2 Linux:
+
+1,- In /etc directory.
+2,- b) Username and password.
+3,- ls
+4,- ls ..
+5,- cal may 1972 (type the correct month and year to see the calendar).
+6,- ls /bin
+7,- a) ls /usr/bin
+b) cd ..
+cd ..
+cd usr
+cd bin
+ls
+c) cd /usr/bin
+ls
+8,- ls -R /etc
+9,- ls -S /usr/bin/X11
+10,- ls -Slh /etc
+11,- ls -Sshr /bin
+12,- ls /
+13,- ls ../../..
+14,- mkdir expenses
+15,- A “normal” user can't create a directory inside /etc. you get the error “Access denied”.
+Only a user with admin privileges (root) can do. This prevent the users from damaging
+the system.
+16,- cat /etc/fstab
+17,- head /etc/bash.bashrc
+18,- ~$ mkdir multimedia
+~$ cd multimedia/
+~/multimedia$ mkdir music pictures video slides
+~/multimedia$ cd pictures/
+~/multimedia/pictures$ mkdir personal others
+19,- cd
+cd multimedia/music
+touch favourite_styles.txt
+20,- vi favourite_styles.txt
+i
+electronic
+ambient
+folk
+classic
+pop
+ESC:w
+:q
+21,- cat favourite_styles.txt
+22,- head -n3 favourite_styles.txt
+23,- tail -n1 favourite_styles.txt
+24,- tail -n+2 favourite_styles.txt

@@ -1,0 +1,45 @@
+Ejercicios tema 4 Linux:
+
+Hacer 1, 2, 3, 4, 5, 6, 7, 8,  11, 13, 17
+
+1,- 
+654 = rw-r-xr--
+766 = rwxrw-rw-
+777 = rwxrwxrwx
+520 = r-x-w----
+764 = rwxrw-r--
+440 = r--r-----
+
+2,- sudo groupadd office1
+     sudo groupadd office2
+3,- adduser gearoid –ingroup office1
+     adduser paul –ingroup office1
+4,- adduser anna –ingroup office2
+      adduser emma –ingroup office2
+5,- su gearoid
+      cd
+      touch top_secret.txt
+      chmod 600 top_secret.txt // chmod g+rw top_secret.txt
+6,- touch sales.txt
+     chmod g+rw sales.txt
+      exit
+      su paul
+      vi /home/gearoid/sales.txt
+7,- exit
+      su anna
+      cd
+      touch employees.txt
+       chmod a+r employees.txt
+       chmod a+w employees.txt
+8,- exit
+      sudo cp /home/anna/employees.txt /home/student/
+      sudo chown student /home/student/employees.txt
+      sudo chgrp student /home/student/employees.txt
+11,- exit
+       $udo adduser jim --ingroup office2
+       su jim
+       cd
+       mkdir shared
+13,- chmod -R a+r shared
+17,- No. A user cannot see inside a directory if he does not have read permission for it, even if
+the permissions in the files inside the directory are set to 777.

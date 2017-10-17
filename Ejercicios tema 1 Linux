@@ -1,0 +1,25 @@
+Ejercicios tema 1 Linux:
+
+
+1,- An operating system is a program that allow the user to interact with the computer and its
+components, so (c) is correct.
+2,- A Linux distribution consists of the kernel of the OS, along with an installation program
+and a set of applications. Therefore, the correct answer is (a).
+3,- a) Sabayon b) Slackware.
+4,- There is a list of the most popular Linux distributions at http://distrowatch.com. At the
+time of writing this document, the information displayed is as follows:
+a) the most popular distros in last month are: 1 Ubuntu, 2 Debian, 3 Mint 4 openSUSE, 5
+Fedora, 6 MEPIS, 7 Mandriva, 8 Arch, 9 PCLinuxOS, 10 CentOS.
+b) the most popular distros in last year are: 1 Ubuntu, 2 openSUSE, 3 Mint, 4 Fedora, 5
+Debian, 6 PCLinuxOS, 7 Mandriva, 8 Sabayon, 9 Dreamlinux, 10 CentOS.
+5,- a) The first Linux version was programmed by Linus Torvalds, b) the goal was to
+improve MINIX, a UNIX-like operating system used in the university.
+6,- b) False. You can have any operating system on the local machine, the only thing you
+need is a telnet client to access the remote machine.
+7,- a) The first Linux version was written for AT 386/486 clones. b) Nowadays there are
+Linux versions for almost any hardware.
+8,- The Linux mascot is called Tux. Therefore, the correct answer is (b).
+9,- Larry Ewing.
+10,- You can take a look at this site: http://www.pendrivelinux.com. Some of the best known
+distros to use with memory sticks are Damn Small Linux (DSL), SLAX and Puppy
+Linux.
